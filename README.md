@@ -1,8 +1,8 @@
 # TPE_WEB2
-Integrantes
+Integrantes:
 -Barraza Esteban (barraza.esteban44@gmail.com)
 -Zarate Matias Nicolas (mati.zarate31@gmail.com)
 
-Tematica
+Tematica:
 Vamos a Hacer una guia de cafeterias y bares de Tandil, para turistas y gente que quiera conocer lugares nuevos.
 
