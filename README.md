@@ -1,8 +1,23 @@
 # TPE_WEB2
 Integrantes:
--Barraza Esteban (barraza.esteban44@gmail.com)
--Zarate Matias Nicolas (mati.zarate31@gmail.com)
 
-Tematica:
-Vamos a Hacer una guia de cafeterias y bares de Tandil, para turistas y gente que quiera conocer lugares nuevos.
+Barraza Esteban, Matias Nicolas Zarate
+
+Email:
+ mati.zarate31@gmail
+ combarraza.esteban44@gmail.com
+
+Tematica: Guia de Gastronomia. 
+
+Descripcion:
+
+Guia de puntos gastronimos para turistas que busquen conocer la gastronomia tandilense.
+
+ 
+
+![diagrama BBDD]('file:///C:/Users/matias/Desktop/Captura%20de%20pantalla%202023-09-22%20181109.png')
+
+
+
+
 
