@@ -8,6 +8,7 @@ require 'header.phtml';
             <th>Nombre</th>
             <th>Ubicacion</th>
             <th>horario</th>
+            <th>categoria</th>
         </tr>
     </thead>
     <tbody>
@@ -18,8 +19,9 @@ require 'header.phtml';
             <td><?= $lugar->nombre ?></td>
             <td><?= $lugar->ubicacion ?></td>
             <td><?= $lugar->horario ?></td>
+            <td><?= $lugar->id_categoria ?></td>
         </tr>
-        <?php  endforeach; var_dump($lugares); ?>
+        <?php  endforeach;?>
     </tbody>
 
 </table>

@@ -2,6 +2,14 @@
 define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/');
 
 require_once 'controller/table.controller.php';
+// home    ->         tableController->showCategorias();
+// lugares   ->       tableController->showPorCategorias();
+// listado  ->        tableController->showLugares($id);
+// finalizar/:ID  ->    
+// login ->             
+// logout ->            
+// auth                 
+
 
 $action = 'home';
 

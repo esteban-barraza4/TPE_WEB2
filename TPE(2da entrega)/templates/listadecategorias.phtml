@@ -6,7 +6,9 @@ require 'header.phtml';
     <thead>
         <tr>
             <th>categoria</th>
+            <th>Descripcion</th>
             <th>lugares</th>
+
         </tr>
     </thead>
     <tbody>
@@ -15,7 +17,9 @@ require 'header.phtml';
         ?>
         <tr>
             <td><?= $categoria->nombre ?></td>
+            <td><?=$categoria->descripcion ?></a></td>
             <td><a href="lugares/<?=$categoria->id_categoria ?>">lugares</a></td>
+            
         </tr>
         <?php endforeach ?>
     </tbody>

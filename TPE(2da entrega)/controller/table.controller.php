@@ -28,23 +28,9 @@
         }
         function showPorCategorias($cat)
         {
-            $arrLugares = [
-                "nombre" => "",
-                "ubicacion" => "",
-                "horario" => ""
-            ];
-            $lugares = $this->model->getLugares($cat);
-            foreach ($lugares as $lugar) {
-                if ($lugar->id_categoria == $cat) {
 
+            $lugares = $this->model->getLugaresPorCategoria($cat);
+            $this->view->showLugares($lugares);
 
-                    $arrLugares += [
-                        "nombre" => $lugar->nombre,
-                        "ubicacion" => $lugar->ubicacion,
-                        "horario" => $lugar->horario,
-                    ];
-                }
-            }
-            var_dump($arrLugares); //$this->view->showLugares($arrLugares);
         }
     };
