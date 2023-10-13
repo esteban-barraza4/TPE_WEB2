@@ -1,0 +1,24 @@
+<?php
+
+require 'header.phtml';
+?>
+<table class="table">
+    <thead>
+        <tr>
+            <th>categoria</th>
+            <th>lugares</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+        foreach($categorias as $categoria):
+        ?>
+        <tr>
+            <td><?= $categoria->nombre ?></td>
+            <td><a href="lugares/<?=$categoria->id_categoria ?>">lugares</a></td>
+        </tr>
+        <?php endforeach ?>
+    </tbody>
+
+</table>
+<?php require './templates/footer.phtml';

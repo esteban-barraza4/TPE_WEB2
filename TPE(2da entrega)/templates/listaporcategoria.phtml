@@ -1,0 +1,26 @@
+<?php
+
+require 'header.phtml';
+?>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicacion</th>
+            <th>horario</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+        foreach($lugares as $lugar):
+        ?>
+        <tr>
+            <td><?= $lugar->nombre ?></td>
+            <td><?= $lugar->ubicacion ?></td>
+            <td><?= $lugar->horario ?></td>
+        </tr>
+        <?php endforeach ?>
+    </tbody>
+
+</table>
+<?php require './templates/footer.phtml';

@@ -17,7 +17,7 @@ Guia de puntos gastronimos para turistas que busquen conocer la gastronomia tand
 
 
 
-![diagrama BBDD]('https://drive.google.com/file/d/1Wj9uEfNK4H_vSYYEeNTldfhu8hfHA1m9/view?usp=drive_link')
+![diagrama BBDD]('')
 
 
 
