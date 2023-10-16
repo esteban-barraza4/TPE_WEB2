@@ -1,6 +1,6 @@
     <?php
-    require_once './model/table.model.php';
-    require_once './view/table.view.php';
+    require_once './app/model/table.model.php';
+    require_once './app/view/table.view.php';
 
     class tableController
     {

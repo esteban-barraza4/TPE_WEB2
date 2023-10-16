@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-10-2023 a las 22:44:05
+-- Tiempo de generación: 16-10-2023 a las 23:14:10
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -75,6 +75,25 @@ INSERT INTO `lugares` (`id_producto`, `nombre`, `ubicacion`, `horario`, `id_cate
 (11, 'Bodegon Del Fuerte', 'Belgrano 589', '12:00 a 15:30/20:00 a 00:00', 'resto'),
 (12, 'Gril Argentino', 'Gral. Rodríguez 552', '12:00 a 15:00/20:30 a 00:00', 'resto');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL,
+  `user` varchar(255) NOT NULL,
+  `password` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `user`, `password`) VALUES
+(1, 'webuser', 'admin');
+
 --
 -- Índices para tablas volcadas
 --
@@ -93,6 +112,12 @@ ALTER TABLE `lugares`
   ADD KEY `id_categoria` (`id_categoria`);
 
 --
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -101,6 +126,12 @@ ALTER TABLE `lugares`
 --
 ALTER TABLE `lugares`
   MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Restricciones para tablas volcadas
